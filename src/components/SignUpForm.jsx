@@ -42,7 +42,7 @@ export default function SignUpForm ({setToken}){
             <form onSubmit={handleSubmit}>
                 <label>
                 Username: {" "} 
-                <input type="text" placeholder="Yo name bro" value={username} onChange={(e) => setUsername (e.target.value)}/>
+                <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername (e.target.value)}/>
                 </label>
                 <label>
                     Password: {" "} 
